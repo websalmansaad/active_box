@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* nav + hero bg */
+.nav_hero_bg{
+    background: url(../images/hero_bg.jpg) , center/cover , no-repeat  ;
+    padding-top: 20px;
+}
+/* navigation css start */
+.navbar-nav .nav-item .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}
+/* navigation css end */
+/* hero css start */
+.hero_content{
+    padding: 130px 0;
+    text-align: center;
+}
+.hero_content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.hero_content p{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.hero_content a{
+    margin-top: 60px;
+    padding: 18px 45px;
+    text-transform: uppercase ;
+}
+/* hero css end */
+/* features css start */
+#features{
+    padding-top: 120px;
+    padding-bottom: 45px;
+}
+.feat_card{
+    text-align: center;
+}
+.feat_card h4{
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2D3033;
+    text-transform: uppercase;
+}
+.feat_card p{
+    padding-bottom: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C7279;
+}
+.feat_card_icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+/* features css end */
+/* gallary css start */
+#gallary{
+
+}
+.gallary_card{
+    position: relative;
+
+}
+.gallary_overlay{
+    transform: scale(0);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(224, 75, 74, .9);
+    transition: all linear .2s;
+}
+.gallary_overlay_a{
+    padding: auto;
+    display: block;
+}
+.gly_ovrla_head{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.gly_ovrla_para{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.gallary_card:hover .gallary_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+/* gallary css end */
+/* team css start */
+#team{
+    padding: 100px 0;
+    background-color: #fff;
+}
+.team_card{}
+.team_card h4{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #2D3033;
+}
+.team_card h6{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E84545;
+}
+.team_card p{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C7279;
+    text-align: justify;
+}
+.team_card_social{
+    margin-top: 30px;
+}
+.team_card_social ul{
+    display: flex;
+}
+.team_card_social ul li{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E8ECEE;
+    margin-right: 5px;
+}
+.team_card_social ul li a{
+    font-size: 20px;
+    color: #C6CACC;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .2s;
+}
+.team_card_social ul li a:hover{
+    color: #fff;
+    background-color: #C6CACC;
+    transition: all linear .3s;
+}
+/* team css end */
+
+/* testimonial css start */
+.testi_content{
+    background-color: #53354A;
+    height: 100%;
+    width: 100%;
+    padding: 0 60px;
+}
+.testi_content h4{
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.testi_content p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.testi_carousel .carousel-indicators{
+    left: 40em;
+}
+.testi_carousel .carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+/* testimonial css end */
+
+/* download css start */
+#download{
+    padding: 70px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.down_content{}
+.down_content h4{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #2D3033;
+}
+.down_content p{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2D3033;
+}
+
+.down_content a{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 12px 80px;
+    background-color: #E84545;
+}
+.down_content a:hover  {
+    color: #ffffff;
+
+}
+/* download css end */
+/* footer css start */
+#footer{
+    background-color: #3A3E64;
+    padding-top:70px;
+}
+.footer_content{
+    text-align: center;
+}
+.footer_content h4{
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer_content p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #ccc;
+}
+.footer_social{}
+.footer_social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_social ul li{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.footer_social ul li a{
+    font-size: 18px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .2s;
+}
+.footer_social ul li a:hover{
+    background-color: #fff;
+    color: #3A3E64;
+    transition: all linear .3s;
+}
+.footer_copyright{
+    margin-top: 80px;
+    padding: 20px 0;
+    background-color: #313454;
+    text-align: center;
+}
+.footer_copyright p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #808080;
+}
+.footer_copyright p i{
+    color: #E84545;
+}
+.footer_copyright p span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+/* footer css end */

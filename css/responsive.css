@@ -1,0 +1,231 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* nav + hero responsive strat */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-collapse {
+        transition: all linear .3s;
+    }
+
+    .hero_content h1 {
+        font-size: 35px;
+    }
+
+    .hero_content p {
+        font-size: 14px;
+    }
+
+    .hero_content {
+        padding: 100px 0;
+    }
+
+    .hero_content p br {
+        display: none;
+    }
+
+    /* nav + hero responsive end */
+
+    /* team responsive strat */
+    #team {
+        padding: 80px 0;
+    }
+
+    .team_card_social ul {
+        justify-content: center;
+    }
+
+    .team_card {
+        text-align: center;
+    }
+
+    .team_card_social {
+        margin-bottom: 30px;
+    }
+
+    /* team responsive end */
+
+    /* testimonial responsive strat */
+    .testi_carousel .carousel-indicators {
+        left: 0;
+    }
+
+    .testi_content h4 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+
+    .testi_content p {
+        margin-bottom: 65px;
+    }
+
+    /* testimonial responsive end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* nav + hero responsive strat */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .navbar-collapse {
+        transition: all linear .3s;
+    }
+
+    .hero_content h1 {
+        font-size: 35px;
+    }
+
+    .hero_content p {
+        font-size: 14px;
+    }
+
+    .hero_content {
+        padding: 100px 0;
+    }
+
+    /* nav + hero responsive end */
+
+    /* features responsive strat */
+    .feat_card p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* features responsive end */
+
+    /* gallary responsive strat */
+    /* gallary responsive end */
+
+    /* team responsive strat */
+    .team_card {
+        text-align: center;
+    }
+
+    .team_card_social ul {
+        justify-content: center;
+    }
+
+    /* team responsive end */
+
+    /* testimonial responsive strat */
+    .testi_content h4 {
+        padding-top: 60px;
+    }
+
+    .testi_carousel .carousel-indicators {
+        left: 0;
+    }
+
+    .testi_content p {
+        margin-bottom: 70px;
+    }
+
+    /* testimonial responsive end */
+
+    /* download responsive strat */
+    .down_content h4 {
+        font-size: 22px;
+    }
+
+    /* download responsive end */
+
+    /* footer responsive strat */
+    .footer_content p {
+        margin-bottom: 40px;
+    }
+
+    .footer_copyright {
+        margin-top: 50px;
+    }
+
+    /* footer responsive end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* nav + hero responsive strat */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+    }
+
+    .navbar-collapse {
+        transition: all linear .3s;
+    }
+
+    .hero_content h1 {
+        font-size: 35px;
+    }
+
+    .hero_content p {
+        font-size: 14px;
+    }
+
+    .hero_content {
+        padding: 100px 0;
+    }
+
+    /* nav + hero responsive end */
+
+    /* testimonial responsive strat */
+    .testi_carousel .carousel-indicators {
+        left: 0;
+    }
+
+    .testi_content h4 {
+        padding-top: 100px;
+        padding-top: 60px;
+    }
+
+    .testi_content p {
+        margin-bottom: 70px;
+    }
+
+    /* testimonial responsive end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* testimonial responsive strat */
+    .testi_content h4 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .testi_carousel .carousel-indicators{
+        left: 30em;
+    }
+    /* testimonial responsive end */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* testimonial responsive strat */
+    .testi_content h4 {
+        font-size: 35px;
+        padding-top: 45px;
+    }
+    /* testimonial responsive end */
+}

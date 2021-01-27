@@ -1,0 +1,2 @@
+responsive sm problem
+* gallary part
